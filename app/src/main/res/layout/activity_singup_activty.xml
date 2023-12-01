@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#7F4CDA"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SingupActivty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sing_up"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:layout_marginStart="15dp"
+            android:background="@color/white"
+            android:hint="@string/first_name"
+            android:textColorHint="@color/black"
+            android:id="@+id/firstname"
+            android:gravity="center"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:layout_marginStart="18dp"
+            android:background="@color/white"
+            android:hint="@string/last_name"
+            android:textColorHint="@color/black"
+            android:id="@+id/lastname"
+            android:gravity="center"
+            android:minHeight="48dp"/>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:layout_marginTop="7dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/e_mail"
+        android:textColorHint="@color/black"
+        android:id="@+id/email"
+        android:gravity="center"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:layout_marginTop="7dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:layout_marginTop="7dp"
+        android:hint="@string/confirm_password"
+        android:textColorHint="@color/black"
+        android:id="@+id/cpassword"
+        android:gravity="center"
+        android:minHeight="48dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/singup"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnsingup"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allready"
+        android:textColor="@color/white"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_here"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/loginhere"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

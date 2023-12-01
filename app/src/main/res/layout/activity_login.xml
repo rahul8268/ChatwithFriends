@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#7F4CDA"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="80dp"/>
+
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="17dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/e_mail"
+        android:textColorHint="@color/black"
+        android:id="@+id/email"
+        android:gravity="center"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="7dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:minHeight="48dp"/>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnlogin"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Account click here ?"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Singup"
+            android:textIsSelectable="true"
+            android:id="@+id/noaccount"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/animation_view"
+        app:lottie_rawRes="@raw/loginjson"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MChats</string>
+    <string name="login_here">Login here</string>
+    <string name="allready">Allready have a account ?</string>
+    <string name="singup">SingUp</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="client_id">311337036007-e8rui8d809m0vsrpko994noa6h156286.apps.googleusercontent.com</string>
+    <string name="send_a_request_start_chating">send a request start chating</string>
+    <string name="accept">Accept</string>
+    <string name="username">Username</string>
+    <string name="notifications">Notifications</string>
+</resources>
